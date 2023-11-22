@@ -10,7 +10,7 @@ lighthouse beacon_node \
   --http-allow-sync-stalled \
   --slots-per-restore-point=32 \
   --disable-packet-filter \
-  --execution-endpoint=http://127.0.0.1:8759 \
+  --execution-endpoint=http://88.99.94.109:8759 \
   --jwt-secrets=./el-cl-genesis-data/jwt/jwtsecret \
   --suggested-fee-recipient=0x8943545177806ED17B9F23F0a21ee5948eCaa776 \
   --subscribe-all-subnets \
