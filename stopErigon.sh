@@ -8,7 +8,7 @@ fi
 
 # Read the PID and kill the process
 PID=$(cat erigon.pid)
-kill $PID
+kill -9 $PID
 
 # Remove the pid file
 rm erigon.pid
