@@ -21,5 +21,10 @@ lighthouse beacon_node \
   --trusted-peers=16Uiu2HAkxAjbNY3VD7fS4w3f6pfk2dnKiAPr6tDQtd2vvUmEX54L \
   --boot-nodes=enr:-MS4QDAfdwdv39sNGp4RhwyabW-n-bNHMFgjgrPsImZKfibtQAGKg85CqmVKg_jvA7r_7C75tu7lv7CDASsQwboc9QYBh2F0dG5ldHOIAAAAAAAAAACEZXRoMpAjvkwgQAAAOP__________gmlkgnY0gmlwhFhjXm2EcXVpY4Iq-YlzZWNwMjU2azGhAii_bzHcO9ydFheDTk140o6hvL0tnMTd89PPGnINuuORiHN5bmNuZXRzAIN0Y3CCKviDdWRwgir4 \
   --checkpoint-sync-url=http://88.99.94.109:9781 \
+  --disable-optimistic-finalized-sync \
+  --disable-backfill-rate-limiting \
+  --genesis-backfill \
+  --reconstruct-historic-states \
+  --reset-payload-statuses \
 
 
