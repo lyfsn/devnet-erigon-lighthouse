@@ -3,6 +3,10 @@ lighthouse beacon_node \
   --datadir=./consensus-data \
   --testnet-dir=./el-cl-genesis-data/custom_config_data \
   --listen-address=0.0.0.0 \
+  --disable-enr-auto-update \
+  --enr-address=88.99.94.109 \
+  --enr-udp-port=9209 \
+  --enr-tcp-port=9209 \
   --port=9209 \
   --http \
   --http-address=0.0.0.0 \
