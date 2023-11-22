@@ -9,7 +9,7 @@
   --http.vhosts=* \
   --ws \
   --allow-insecure-unlock \
-  --nat=extip:127.0.0.1 \
+  --nat=extip:88.99.94.109 \
   --http \
   --http.addr=0.0.0.0 \
   --http.corsdomain=* \
