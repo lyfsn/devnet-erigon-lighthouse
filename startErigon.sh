@@ -5,7 +5,7 @@
   --datadir=./execution-data \
   --port=30503 \
   --networkid=28256 \
-  --http.api=eth,erigon,engine,web3,net,debug,trace,txpool,admin \
+  --http.api=eth,erigon,engine,web3,net,debug,trace,txpool,admin,ots \
   --http.vhosts=* \
   --ws \
   --allow-insecure-unlock \
